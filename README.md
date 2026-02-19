@@ -2,22 +2,22 @@
 
 ## 🛒 Zepto HSR Layout – Pricing & Demand Analysis Dataset (6454 Products)
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository contains a **primary dataset and end-to-end data pipeline** designed for analyzing pricing strategy, discount behavior, demand intensity, and competitive signals in the quick-commerce industry.
 
 The dataset was collected from a Zepto dark store serving **HSR Layout, Bangalore** — a high-footfall and digitally mature urban locality that serves as a strong proxy for urban Bangalore consumption patterns.
 
-📅 **Data Collection Date:** February 17 (Tuesday) 2026
-📍 **Context:** Non-festival, regular weekday
-🎯 **Objective:** Build a modeling-ready dataset for pricing, demand, and competitive analysis.
+ **Data Collection Date:** February 17 (Tuesday) 2026
+ **Context:** Non-festival, regular weekday
+ **Objective:** Build a modeling-ready dataset for pricing, demand, and competitive analysis.
 
 ---
 
-# 🚀 Repository Structure
+#  Repository Structure
 
 ```
-📦 zepto-hsr-analysis
+ zepto-hsr-analysis
 │
 ├── zepto_scraper.py                 # API-based data collection script
 ├── DDA_Zepto_cleaning.ipynb         # Data cleaning & feature engineering notebook
@@ -27,13 +27,13 @@ The dataset was collected from a Zepto dark store serving **HSR Layout, Bangalor
 
 ---
 
-# 🔎 Data Collection
+#  Data Collection
 
 Data was collected using a structured API scraping strategy implemented in:
 
 📄 `zepto_scraper.py` 
 
-### 🔹 Key Features of Scraper
+###  Key Features of Scraper
 
 * Uses Zepto search API endpoint
 * Systematic category-based search queries
@@ -46,13 +46,13 @@ Each row represents a **product variant** available at the dark store at the tim
 
 ---
 
-# 🧹 Data Cleaning & Preprocessing
+#  Data Cleaning & Preprocessing
 
 Cleaning and feature engineering were performed in:
 
-📓 `DDA_Zepto_cleaning.ipynb`
+ `DDA_Zepto_cleaning.ipynb`
 
-### ✔ Key Cleaning Steps
+###  Key Cleaning Steps
 
 ### 1️⃣ Duplicate Detection
 
@@ -109,13 +109,13 @@ No significant mismatches detected.
 
 ---
 
-# 🧠 Feature Engineering
+#  Feature Engineering
 
 Two binary classification labels were created.
 
 ---
 
-## 🟢 High Discount Flag
+##  High Discount Flag
 
 ```
 High_Discount_Flag = True if Discount % >= 20
@@ -128,7 +128,7 @@ Purpose:
 
 ---
 
-## 🔵 High Demand Flag
+##  High Demand Flag
 
 Defined as:
 
@@ -143,7 +143,7 @@ Purpose:
 
 ---
 
-# 📊 Dataset Description
+#  Dataset Description
 
 Final cleaned dataset:
 📄 `zepto_HSR_cleaned_dataset.xlsx`
@@ -170,7 +170,7 @@ Each row represents one product variant.
 
 ---
 
-# 📈 Analytical Use Cases
+#  Analytical Use Cases
 
 This dataset supports:
 
@@ -203,7 +203,7 @@ HSR Layout serves as a strong representative urban consumption zone.
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 * Python
 * pandas
@@ -214,7 +214,7 @@ HSR Layout serves as a strong representative urban consumption zone.
 
 ---
 
-# ⚠️ Ethical & Usage Disclaimer
+#  Ethical & Usage Disclaimer
 
 * Data collected for academic and research purposes.
 * No authentication bypass or private endpoints used.
@@ -223,7 +223,7 @@ HSR Layout serves as a strong representative urban consumption zone.
 
 ---
 
-# 📌 Future Enhancements
+#  Future Enhancements
 
 * Train/test split modelling pipeline
 * Category-level elasticity modelling
@@ -233,14 +233,14 @@ HSR Layout serves as a strong representative urban consumption zone.
 
 ---
 
-# 🎯 Project Highlights
+#  Project Highlights
 
-✔ Real-world primary dataset
-✔ API-based structured extraction
-✔ Robust cleaning and validation
-✔ Feature engineering for classification
-✔ Business-aligned analytical framing
-✔ Competitive intelligence angle
+* Real-world primary dataset
+* API-based structured extraction
+* Robust cleaning and validation
+* Feature engineering for classification
+* Business-aligned analytical framing
+* Competitive intelligence angle
 
 ---
 
