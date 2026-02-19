@@ -8,7 +8,7 @@ This repository contains a **primary dataset and end-to-end data pipeline** desi
 
 The dataset was collected from a Zepto dark store serving **HSR Layout, Bangalore** — a high-footfall and digitally mature urban locality that serves as a strong proxy for urban Bangalore consumption patterns.
 
-📅 **Data Collection Date:** February 17 (Tuesday)
+📅 **Data Collection Date:** February 17 (Tuesday) 2026
 📍 **Context:** Non-festival, regular weekday
 🎯 **Objective:** Build a modeling-ready dataset for pricing, demand, and competitive analysis.
 
